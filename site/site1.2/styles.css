@@ -1,0 +1,67 @@
+body {
+    width: 90%;
+    font-family: Arial, sans-serif;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f8ff; /* Azul claro */
+    margin: 0;
+}
+.flex{
+    justify-content: center;
+    margin-top: 2%;
+    margin-inline: 10%;
+    display: flex;
+}
+
+.container {
+    text-align: center;
+    max-width: 800px; /* Margem maior nas laterais */
+    width: 85%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff; /* Fundo branco */
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label, input, button {
+    display: block;
+    margin: 10px auto;
+    width: calc(100% - 20px); /* Reduz a largura dos elementos */
+    max-width: 300px; /* Limita a largura máxima dos elementos */
+    box-sizing: border-box; /* Considera padding e borda na largura */
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#resultado {
+    font-size: 1.2em;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+#plano-cartesiano {
+    margin-top: 20px;
+    position: relative;
+    width: 100%;
+    max-width: 400px; /* Limita a largura máxima do plano cartesiano */
+    height: 0;
+    padding-bottom: 100%; /* Mantém proporção 1:1 do plano cartesiano */
+    border: 1px solid #ccc;
+    margin: 0 auto;
+}
